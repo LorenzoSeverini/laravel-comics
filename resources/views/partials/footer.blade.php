@@ -30,7 +30,7 @@
         </div>
     </div>
     {{-- footer bottom bar with sign up button on the left and social icons on the right --}}
-    <div class="footer-bottom-bar">
+    <div class="footer-bottom-bar my-3">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
