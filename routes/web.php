@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $links = config('store.links');
     $footerNavLinks = config('store.footerNavLinks');
-    return view('welcome', compact('links', 'footerNavLinks'));
+    $comics = config('comics-database.comics');
+    return view('welcome', compact('links', 'footerNavLinks', 'comics'));
 })->name('home');
 
 Route::get('/characthers', function () {
@@ -24,3 +25,10 @@ Route::get('/characthers', function () {
     $footerNavLinks = config('store.footerNavLinks');
     return view('characthers', compact('links', 'footerNavLinks'));
 })->name('characthers');
+
+Route::get('/comics1', function () {
+    $links = config('store.links');
+    $footerNavLinks = config('store.footerNavLinks');
+    $comics = config('comics-database.comics');
+    return view('comics1', compact('links', 'footerNavLinks', 'comics'));
+})->name('comics1');
