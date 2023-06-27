@@ -7,6 +7,7 @@
         <div class="col">
             <div>
                 <p>This is the characthers page, with a different content for sure</p>
+                <a href="{{route("home")}}">back to home page</a>
             </div>
         </div>
     </div>
