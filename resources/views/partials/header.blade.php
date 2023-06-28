@@ -18,7 +18,7 @@
     </div>
 </header>
 
-<style>
+{{-- <style>
     header {
         background-color: #fff;
         position: sticky;
@@ -30,5 +30,5 @@
         max-width: 75rem;
         margin: 0 auto;
     }
-</style>
+</style> --}}
 

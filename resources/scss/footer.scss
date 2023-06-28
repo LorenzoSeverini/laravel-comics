@@ -1,0 +1,86 @@
+// footer scss
+
+.footer-nav {
+    background-image: url("/resources/img/footer-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.footer-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    align-items: start
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 2rem;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-nav-left-item {
+    padding: 0 1rem;
+}
+
+.footer-nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-bar {
+    padding: 1rem 0;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons li a {
+    display: inline-block;
+}
+
+.social-icons li a img {
+    width: 2rem;
+    height: 2rem;
+}

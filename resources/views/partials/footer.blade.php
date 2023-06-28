@@ -1,3 +1,4 @@
+
 <footer>
     {{-- footer top bar with links --}}
     <div class="footer-nav">
@@ -50,7 +51,7 @@
     </div>
 </footer>
 
-<style>
+{{-- <style>
 
     .footer-nav {
         background-image: url('{{ Vite::asset("resources/img/footer-bg.jpg") }}');
@@ -136,4 +137,4 @@
         width: 2rem;
         height: 2rem;
     }
-</style>
+</style> --}}
