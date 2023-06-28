@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<style>
+{{-- <style>
     .march-container {
         display: flex;
         justify-content: space-between;
@@ -37,7 +37,7 @@
         width: 70px;
         height: 100px;
     }
-</style>
+</style> --}}
 
 
 

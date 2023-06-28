@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<style>
+{{-- <style>
 
     .container {
         max-width: 75rem;
@@ -68,5 +68,5 @@
     .comic-card h3 {
       margin: 0;
     }
-</style>
+</style> --}}
 

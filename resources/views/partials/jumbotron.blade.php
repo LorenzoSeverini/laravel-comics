@@ -6,7 +6,7 @@
     </div>
 </div>
 
-<style>
+{{-- <style>
    .jumbotron-section {
         padding-top: 92px;
         margin-top: -92px;
@@ -17,4 +17,4 @@
         height: 100%;
         object-fit: cover;
     }
-</style>
+</style> --}}

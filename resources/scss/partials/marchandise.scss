@@ -1,0 +1,22 @@
+// marchandise styles
+
+.march-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.marchandise {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 2rem;
+}
+
+.marchandise img {
+    width: 70px;
+    height: 100px;
+}
