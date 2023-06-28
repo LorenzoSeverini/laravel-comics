@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('page-title', 'Title Override: Characthers Page')
+@section('page-title', 'Characthers')
 @section('content')
 <div class="container my-3">
     <h1>Characthers Page</h1>
