@@ -1,7 +1,10 @@
 /* importo bootstrap dalla cartella node_modules usando l'alias settato in vite.config.js */
 @import "~bootstrap/scss/bootstrap";
-@import "~resources/scss/header.scss";
-@import "~resources/scss/footer.scss";
+@import "~resources/scss/partials/header.scss";
+@import "~resources/scss/partials/footer.scss";
+@import "~resources/scss/partials/comicsSection.scss";
+@import "~resources/scss/partials/jumbotron.scss";
+@import "~resources/scss/partials/marchandise.scss";
 
 
 * {
